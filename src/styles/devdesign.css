@@ -1,0 +1,162 @@
+/*Style sheet for both the developer and designer page */
+
+.main-container{
+    overflow:hidden;
+}
+
+.devdesign-head{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: space-between;
+    
+
+  
+  }
+.devdesign-text{
+    width:50%;
+    padding-left: 4.5em;
+    
+    
+}
+.devdesign-text h1{
+    font-family:'Roboto', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    color: #17255A;
+    letter-spacing: -1.5px;
+    line-height: 115%;
+}
+
+.devdesign-image{
+    width:40%;
+    
+}
+.devdesign-image img{
+    width:50%;
+    border-radius:50%;
+    background-color:#03CEA4;
+}
+.creativity{
+    padding-top:4.3em;
+}
+.creativity p{
+    font-family:'Nunito', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    width:50%;
+    letter-spacing:0.5px;
+    line-height: 28px;
+    color: #273043;
+    padding-left: 4.5em;
+    padding-bottom:1.5em;
+}
+.quote{
+    font-family:'Roboto', sans-serif;
+    font-weight: 900;
+    padding-left:2em;
+    padding-top:1.5em;
+    font-size:2.5em;
+    color:#03CEA4;
+    width:60%;
+}
+#product-image {
+    background: #F5772F;
+
+}
+.product-quote{
+    color: #F5772F;
+
+}
+.expectation{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    margin-top:4.5em;
+    
+}
+.expectation-media img{
+    width:100%;
+}
+.expectation-text{
+    text-align: center;
+    padding-top:1.5em;
+    color: #273043;
+}
+.expectation-text h3{
+    font-family:'Roboto', sans-serif;
+    font-weight: 900;
+    font-size:2em;
+    line-height: 44px;
+    text-transform: capitalize;
+   
+}
+.expectation-text p{
+    font-family:'Nunito', sans-serif;
+    font-size: 1.1em;
+    padding-top:1.5em;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin:auto;
+    width:45%;
+
+}
+@media only screen and (max-width:678px){
+    .devdesign-text{
+        margin-right:1.5em;
+    }
+}
+@media only screen and (max-width:450px){
+    .devdesign-head{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .devdesign-image img{
+      width:120%;
+        
+        
+    }
+    .devdesign-text{
+        padding-left:0;
+        text-align:center;
+        padding-top:0.5em;
+    }
+    .devdesign-text h1{
+        font-size:4em;
+    }
+    .expectation-text p{
+        width:90%;
+    }
+    .creativity{
+        padding-top:2.5em;
+    }
+    .creativity p{
+        
+        padding-left:1.5em;
+        width:100%;
+    }
+    
+    .quote{
+        font-size:1.5em;
+        width:100%;
+    }
+}
+@media only screen and (max-width:350px){
+    .devdesign-text h1{
+        font-size:3em;
+    }
+    .expectation-text p{
+        width:90%;
+    }
+    .creativity{
+        padding-top:2.5em;
+    }
+    .creativity p{
+        
+        padding-left:1.5em;
+        width:100%;
+    }
+}

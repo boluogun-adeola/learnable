@@ -1,0 +1,197 @@
+.up-to-date-section {
+    display: flex;
+    color: #273043;
+    
+  }
+  .up-to-date-arrow{
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .up-to-date-text{
+     background: #EAC435;
+     margin:2.5em 0;
+    
+  }
+  .up-to-date-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2.5em 3.5em;
+   
+  }
+  
+  .up-to-date-text-heading {
+    font-size: 34px;
+    line-height: 37.46px;
+    font-weight: 900;
+    flex: 0 0 50%;
+    text-transform: capitalize;
+    padding: 1em 1.8em;
+    
+    
+  }
+  .up-to-date-text-middle {
+    flex: 0 0 20%;
+  }
+  .up-to-date-text-middle p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .up-to-date-text-middle-input {
+    background-color: transparent;
+    border: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #273043;
+  }
+  .up-to-date-text-middlemiddle-input::placeholder {
+    color: #273043;
+  }
+  .up-to-date-text-button {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: solid 1px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .up-to-date-text-hidden {
+    display: none;
+  }
+  .footer{
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+    padding:3.5em 2.5em;
+  }
+  .footer a{
+    font-family:'Nunito', sans-serif;
+    font-size:1.2em;
+    color: #273043;
+  
+  
+  }
+  .link-section li{
+    margin-bottom:1.3em;
+    text-transform: uppercase;
+  }
+  .flex{
+    width:30%;
+  }
+  .footer-image{
+    display:flex;
+    
+  }
+  .footer-text p{
+    width:75%;
+  }
+  .footer-image p{
+    padding-left:1.5em;
+    padding-top:1.2em;
+  }
+  .footer p{
+    font-family:'Nunito', sans-serif;
+    font-size:0.9em;
+    padding-bottom:1.5em;
+  }
+  .icon-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:3.5em;
+  }
+  .icon-section img{
+    display:inline-block;
+    padding-right:2.5em;
+    width:100%;
+  }
+  .privacy-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:3.5em;
+  font-family: Nunito;
+  font-size: 0.6em;
+  font-family:'Nunito', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  
+  
+  
+  }
+  .privacy{
+    padding-left:1.2em;
+  }
+  @media only screen and (max-width:900px){
+    .up-to-date-text {
+      flex-direction: column;
+      padding:1.5em 1em;
+      align-items: flex-start;
+     
+    }
+    
+    
+    .up-to-date-text-heading {
+      flex: 100%;
+     padding: 0;
+     padding-bottom:1em;
+      
+      
+    }
+    .up-to-date-text-middle {
+      flex:  100%;
+      padding-bottom: 1em;
+
+    }
+    .up-to-date-text-middle p{
+      display: none;
+    }
+    .up-to-date-text-button{
+      margin-bottom:1em;
+    }
+    .up-to-date-text-hidden{
+      display:block;
+    }
+    .footer{
+      flex-direction: column;
+      text-align: center;
+      font-size: 0.9em;
+      align-items: center;
+      
+  
+    }
+    .flex{
+      width:100%;
+      padding-bottom: 0.5em;
+    }
+    .footer-image{
+      flex-direction: column;
+    }
+    .link{
+      padding-bottom:1.5em;
+    }
+    .footer-text p{
+      width:100%;
+    }
+    .icon-section{
+      align-items: center;
+    }
+    .icon-section img{
+      width:110%;
+    }
+  }
+  @media only screen and (max-width:450px){
+    .up-to-date-arrow{
+      display: none;
+    }
+    .up-to-date-text{
+      margin-left: 0;
+    }
+    .icon-section img{
+      width:120%;
+    }
+  }
+  
