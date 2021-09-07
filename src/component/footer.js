@@ -64,7 +64,7 @@ const Footer = () =>{
                         </div>
                         <div className="flex footer-image">
                             <div className="footer-media">
-                                <img src={image7} alt=""/>
+                                <img src={image7} alt="people"/>
                             </div>
                             <div className="footer-media-text">
                                 <p>Learnable is proud to be a collaborative effort of all the arms of our product team</p>
