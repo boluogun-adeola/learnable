@@ -316,26 +316,26 @@ const Home = () =>{
                 <p className="view-all"><Link to = "/journal" > View All</Link></p>
                 <section className="journal-grid">
                         <div className="journal-box">
-                            <img src={journal1} alt=""/>
-                            <p className="journal-grid-link"><a href="#">inspiration</a></p>
+                            <img src={journal1} alt="human"/>
+                            <p className="journal-grid-link"><a>inspiration</a></p>
                             <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
                             <p className="mong">David Mong, Apr 9, 2020</p>
                         </div>
                         <div className="journal-box">
                             <img src={journal2} alt="human"/>
-                            <p className="journal-grid-link"><a href="#">inspiration</a></p>
+                            <p className="journal-grid-link"><a>inspiration</a></p>
                             <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
                             <p className="mong"> David Mong, Apr 9, 2020</p>
                         </div>
                         <div className="journal-box">
                             <img src={journal3} alt="human"/>
-                            <p className="journal-grid-link"><a href="#">inspiration</a></p>
+                            <p className="journal-grid-link"><a>inspiration</a></p>
                             <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
                             <p className="mong">David Mong, Apr 9, 2020</p>
                         </div>
                         <div className="journal-box">
                             <img src={journal4} alt="human"/>
-                            <p className="journal-grid-link"><a href="#">inspiration</a></p>
+                            <p className="journal-grid-link"><a>inspiration</a></p>
                             <h4>Learn Design Thinking like a Pro and Build Projects that People will care about</h4>
                             <p className="mong">David Mong, Apr 9, 2020</p>
                         </div>

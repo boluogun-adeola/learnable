@@ -15,7 +15,7 @@ const Footer = () =>{
         <React.Fragment>
             <section className="up-to-date-section">
             <div className="up-to-date-arrow">
-                <img src={arrowdown} alt="" />
+                <img src={arrowdown} alt="arrow" />
             </div>
             <div className="up-to-date-text">
                 <h1 className="up-to-date-text-heading">
@@ -60,7 +60,7 @@ const Footer = () =>{
                         </ul>
                         <div className="flex footer-text">
                             <p>Our Local Campus center: Kilometer 7, Enugu/Port Harcourt, Expressway, Centenary City, Enugu. Nigeria</p>
-                            <p><a href="#">Get In Touch</a></p>
+                            <p><a>Get In Touch</a></p>
                         </div>
                         <div className="flex footer-image">
                             <div className="footer-media">
@@ -68,7 +68,7 @@ const Footer = () =>{
                             </div>
                             <div className="footer-media-text">
                                 <p>Learnable is proud to be a collaborative effort of all the arms of our product team</p>
-                                <p><a href="#">Head to DevStudio</a></p>
+                                <p><a>Head to DevStudio</a></p>
                             </div>
                         </div>
                         
